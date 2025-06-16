@@ -4,20 +4,16 @@
 - npm/yarn
 
 ## Установка
-
 ### Бэкенд (Flask)
-```bash
 cd backend
 pip install -r requirements.txt
 
 ### Фронтенд (TypeScript)
-```bash
 cd frontend
 npm install
 npm run build
 
 ## Запуск
-```bash
 python app.py
 open frontend/public/index.html
 
