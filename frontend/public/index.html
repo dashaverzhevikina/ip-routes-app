@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Таблица маршрутов</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<div class="container">
+    <h1>Таблица маршрутов</h1>
+    <div id="loading-indicator" class="loading"></div>
+    <table id="routes-table">
+        <thead>
+            <tr>
+                <th><button id="sort-address">Адрес назначения</button></th>
+                <th><button id="sort-gateway">Шлюз</button></th>
+                <th><button id="sort-interface">Интерфейс</button></th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+</div>
+<script type="module" src="./dist/index.js"></script>
+</body>
+</html>
